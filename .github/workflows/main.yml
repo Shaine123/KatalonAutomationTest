@@ -18,6 +18,9 @@ jobs:
           tar -xzf Katalon_Studio_Enterprise_Linux_64-10.1.0.tar.gz
           sudo mv Katalon_Studio_Enterprise_Linux_64-10.1.0 /opt/katalon
 
+      -  name: Verify Katalon Installation
+         run: ls -lh /opt/katalon
+
       - name: Run Katalon Tests
         run: |
           /opt/katalon/katalonc \
