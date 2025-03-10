@@ -28,7 +28,7 @@ jobs:
           -retry=0 \
           -testSuitePath="Test Suites/HomePageTest" \
           -browserType="Chrome" \
-          -apiKey="${{ af423569-7ddd-4d44-8dfe-87be3b019d6e }}"
+          -apiKey="${{ secrets.KATALON_API_KEY  }}"
 
       - name: Upload Test Reports
         uses: actions/upload-artifact@v4
