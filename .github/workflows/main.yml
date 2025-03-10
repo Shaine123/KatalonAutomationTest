@@ -15,8 +15,8 @@ jobs:
       - name: Set up Katalon
         run: |
           wget https://download.katalon.com/10.1.0/Katalon_Studio_Enterprise_Linux_64-10.1.0.tar.gz
-          tar -xzf Katalon_Studio_Linux_64-9.0.0.tar.gz
-          sudo mv Katalon_Studio_Linux_64-9.0.0 /opt/katalon
+          tar -xzf Katalon_Studio_Enterprise_Linux_64-10.1.0.tar.gz
+          sudo mv Katalon_Studio_Enterprise_Linux_64-10.1.0 /opt/katalon
 
       - name: Run Katalon Tests
         run: |
