@@ -1,0 +1,37 @@
+name: Run Katalon Tests Every Tuesday
+
+on:
+  schedule:
+    - cron: '*/6 * * * *'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Katalon
+        run: |
+           LATEST_VERSION=$(curl -s https://api.github.com/repos/katalon-studio/katalon-studio/releases/latest | jq -r '.tag_name')
+            wget https://github.com/katalon-studio/katalon-studio/releases/download/$LATEST_VERSION/Katalon_Studio_Linux_64-$LATEST_VERSION.tar.gz
+            tar -xzf Katalon_Studio_Linux_64-$LATEST_VERSION.tar.gz
+            sudo mv Katalon_Studio_Linux_64-$LATEST_VERSION /opt/katalon
+
+      - name: Run Katalon Tests
+        run: |
+          /opt/katalon/katalonc \
+          -noSplash \
+          -runMode=console \
+          -projectPath="$(pwd)/Katalon Test/Test Automation.prj" \
+          -retry=0 \
+          -testSuitePath="Test Suites/HomePageTest" \
+          -browserType="Chrome" \
+          -apiKey="${{ af423569-7ddd-4d44-8dfe-87be3b019d6e }}"
+
+      - name: Upload Test Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: katalon-test-reports
+          path: Reports/
