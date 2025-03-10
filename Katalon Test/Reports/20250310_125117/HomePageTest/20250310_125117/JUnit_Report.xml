@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HomePageTest" time="315.824" tests="3" failures="0" errors="0">
+   <testsuite name="HomePageTest" tests="3" failures="0" errors="0" time="315.824" skipped="0" timestamp="10-03-2025T12:51:48" hostname="ShaineBerdida - Z-PH-SHAINE" id="Test Suites/HomePageTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ShaineBerdida\\Katalon Studio\\Test Automation\\Reports\\20250310_125117\\HomePageTest\\20250310_125117"/>
+         <property name="logFiles" value="C:\\Users\\ShaineBerdida\\Katalon Studio\\Test Automation\\Reports\\20250310_125117\\HomePageTest\\20250310_125117\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ShaineBerdida - Z-PH-SHAINE"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 134.0.6998.36"/>
+         <property name="hostAddress" value="10.5.0.2"/>
+         <property name="sessionId" value="2dca7cd7ebb31bc609ece41331f0a13a"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/AcessoriesTest" time="78.328" classname="Test Cases/AcessoriesTest" status="PASSED">
+         <system-out><![CDATA[10-03-2025T12:52:38 - [TEST_CASE][PASSED] - Test Cases/AcessoriesTest: Test Cases/AcessoriesTest
+
+10-03-2025T12:52:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-03-2025T12:52:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-03-2025T12:52:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-03-2025T12:52:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-03-2025T12:52:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-03-2025T12:52:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-03-2025T12:52:40 - [MESSAGE][PASSED] - Current window maximized
+
+10-03-2025T12:52:40 - [TEST_STEP][PASSED] - navigateToUrl("https://rotimatic.com/"): Navigate to 'https://rotimatic.com/' successfully
+
+10-03-2025T12:53:16 - [MESSAGE][PASSED] - Navigate to 'https://rotimatic.com/' successfully
+
+10-03-2025T12:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories")): Object: 'Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories' is clicked on
+
+10-03-2025T12:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories' is clicked on
+
+10-03-2025T12:53:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/a_Rotimatic NEXT")): Object: 'Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/a_Rotimatic NEXT' is clicked on
+
+10-03-2025T12:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/a_Rotimatic NEXT' is clicked on
+
+10-03-2025T12:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccessoriestTest/Page_Rotimatic Accessories Next - Rotimatic/span_Rotimatic NEXT")): Object: 'Object Repository/AccessoriestTest/Page_Rotimatic Accessories Next - Rotimatic/span_Rotimatic NEXT' is clicked on
+
+10-03-2025T12:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AccessoriestTest/Page_Rotimatic Accessories Next - Rotimatic/span_Rotimatic NEXT' is clicked on
+
+10-03-2025T12:53:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("AccessoriestTest/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img"), 0): Scroll to object 'Object Repository/AccessoriestTest/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img' successfully
+
+10-03-2025T12:53:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+10-03-2025T12:53:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/AccessoriestTest/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img' successfully
+
+10-03-2025T12:53:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccessoriestTest/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img")): Object: 'Object Repository/AccessoriestTest/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img' is clicked on
+
+10-03-2025T12:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AccessoriestTest/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img' is clicked on
+
+10-03-2025T12:53:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-03-2025T12:53:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RotiMenuNavigation" time="122.345" classname="Test Cases/RotiMenuNavigation" status="PASSED">
+         <system-out><![CDATA[10-03-2025T12:53:57 - [TEST_CASE][PASSED] - Test Cases/RotiMenuNavigation: Test Cases/RotiMenuNavigation
+
+10-03-2025T12:53:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-03-2025T12:53:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-03-2025T12:53:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-03-2025T12:53:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-03-2025T12:53:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-03-2025T12:53:58 - [MESSAGE][PASSED] - Current window maximized
+
+10-03-2025T12:53:58 - [TEST_STEP][PASSED] - navigateToUrl("https://rotimatic.com/"): Navigate to 'https://rotimatic.com/' successfully
+
+10-03-2025T12:54:22 - [MESSAGE][PASSED] - Navigate to 'https://rotimatic.com/' successfully
+
+10-03-2025T12:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RotiMenuNavigation/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories")): Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories' is clicked on
+
+10-03-2025T12:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories' is clicked on
+
+10-03-2025T12:54:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RotiMenuNavigation/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Rotimatic NEXT")): Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Rotimatic NEXT' is clicked on
+
+10-03-2025T12:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Rotimatic NEXT' is clicked on
+
+10-03-2025T12:54:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/span_Rotimatic NEXT")): Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/span_Rotimatic NEXT' is clicked on
+
+10-03-2025T12:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/span_Rotimatic NEXT' is clicked on
+
+10-03-2025T12:55:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Find the accessories youre looking for _6947bd"), 0): Scroll to object 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Find the accessories youre looking for _6947bd' successfully
+
+10-03-2025T12:55:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+10-03-2025T12:55:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Find the accessories youre looking for _6947bd' successfully
+
+10-03-2025T12:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Find the accessories youre looking for _6947bd")): Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Find the accessories youre looking for _6947bd' is clicked on
+
+10-03-2025T12:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Find the accessories youre looking for _6947bd' is clicked on
+
+10-03-2025T12:55:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img")): Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img' is clicked on
+
+10-03-2025T12:55:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //acc-product[@id='our-accessories']/div/div/div[2]/a/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-03-2025T12:55:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img'. Try using Self-healing.
+
+10-03-2025T12:55:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Dough it right combo'])[1]/preceding::div[1]'.
+
+10-03-2025T12:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img' is clicked on
+
+10-03-2025T12:55:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-03-2025T12:55:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ExploreRotimaticNEXT" time="65.359" classname="Test Cases/ExploreRotimaticNEXT" status="PASSED">
+         <system-out><![CDATA[10-03-2025T12:55:59 - [TEST_CASE][PASSED] - Test Cases/ExploreRotimaticNEXT: Test Cases/ExploreRotimaticNEXT
+
+10-03-2025T12:55:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-03-2025T12:55:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-03-2025T12:55:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-03-2025T12:56:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-03-2025T12:56:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-03-2025T12:56:01 - [MESSAGE][PASSED] - Current window maximized
+
+10-03-2025T12:56:01 - [TEST_STEP][PASSED] - navigateToUrl("https://rotimatic.com/"): Navigate to 'https://rotimatic.com/' successfully
+
+10-03-2025T12:56:25 - [MESSAGE][PASSED] - Navigate to 'https://rotimatic.com/' successfully
+
+10-03-2025T12:56:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Page_Rotimatic Fully Automatic Roti Maker  _722ede/a_Explore Rotimatic NEXT")): Object: 'Object Repository/HomePage/Page_Rotimatic Fully Automatic Roti Maker  _722ede/a_Explore Rotimatic NEXT' is clicked on
+
+10-03-2025T12:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_Rotimatic Fully Automatic Roti Maker  _722ede/a_Explore Rotimatic NEXT' is clicked on
+
+10-03-2025T12:57:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Page_Rotimatic NEXT The Future of Roti-Maki_3d4686/span_NEXT level roti  technology"), 0): Object 'Object Repository/HomePage/Page_Rotimatic NEXT The Future of Roti-Maki_3d4686/span_NEXT level roti  technology' is present
+
+10-03-2025T12:57:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+10-03-2025T12:57:03 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_Rotimatic NEXT The Future of Roti-Maki_3d4686/span_NEXT level roti  technology' is present
+
+10-03-2025T12:57:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-03-2025T12:57:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-03-2025T12:51:48 - [TEST_SUITE][FAILED] - HomePageTest: Test Cases/AcessoriesTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at AcessoriesTest.run(AcessoriesTest:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741582277414.run(TempTestSuite1741582277414.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [4b11ab00b959f97ed55ed229dc7f8182, findElements {using=xpath, value=//div[@id='shopify-section-sections--24155131511154__header']/roti-header/header/div/div/div[2]/ul/li[2]/a/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\SHAINE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56240}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56240/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:35758/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b11ab00b959f97ed55ed229dc7f8182
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$fR7tbNd5.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:954)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:773)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[10-03-2025T12:51:48 - [TEST_SUITE][FAILED] - HomePageTest: Test Cases/AcessoriesTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at AcessoriesTest.run(AcessoriesTest:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741582277414.run(TempTestSuite1741582277414.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [4b11ab00b959f97ed55ed229dc7f8182, findElements {using=xpath, value=//div[@id='shopify-section-sections--24155131511154__header']/roti-header/header/div/div/div[2]/ul/li[2]/a/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\SHAINE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56240}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56240/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:35758/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b11ab00b959f97ed55ed229dc7f8182
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$fR7tbNd5.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:954)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:773)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

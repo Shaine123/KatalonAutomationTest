@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePageTest,Chrome 134.0.6998.36,,,10-03-2025 12:51:46,10-03-2025 12:57:31,5m - 44.773s,FAILED
+,,,,,,,
+Test Cases/AcessoriesTest,Chrome 134.0.6998.36,,,10-03-2025 12:52:49,10-03-2025 12:54:25,1m - 36.905s,FAILED
+"openBrowser("""")",Chrome 134.0.6998.36,,,10-03-2025 12:52:49,10-03-2025 12:52:51,2.149s,PASSED
+maximizeWindow(),Chrome 134.0.6998.36,,,10-03-2025 12:52:51,10-03-2025 12:52:51,0.109s,PASSED
+"navigateToUrl(""https://rotimatic.com/"")",Chrome 134.0.6998.36,,,10-03-2025 12:52:51,10-03-2025 12:53:19,28.015s,PASSED
+"click(findTestObject(""Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories""))",Chrome 134.0.6998.36,,,10-03-2025 12:53:19,10-03-2025 12:53:51,32.249s,PASSED
+"click(findTestObject(""Object Repository/AccessoriestTest/Page_Rotimatic Fully Automatic Roti Maker  _722ede/a_Rotimatic NEXT""))",Chrome 134.0.6998.36,,,10-03-2025 12:53:51,10-03-2025 12:54:25,34.345s,FAILED
+,,,,,,,
+Test Cases/RotiMenuNavigation,Chrome 134.0.6998.36,,,10-03-2025 12:54:25,10-03-2025 12:56:28,2m - 2.231s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.36,,,10-03-2025 12:54:26,10-03-2025 12:54:27,1.748s,PASSED
+maximizeWindow(),Chrome 134.0.6998.36,,,10-03-2025 12:54:27,10-03-2025 12:54:27,0.082s,PASSED
+"navigateToUrl(""https://rotimatic.com/"")",Chrome 134.0.6998.36,,,10-03-2025 12:54:27,10-03-2025 12:54:52,24.319s,PASSED
+"click(findTestObject(""Object Repository/RotiMenuNavigation/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Accessories""))",Chrome 134.0.6998.36,,,10-03-2025 12:54:52,10-03-2025 12:55:00,8.346s,PASSED
+"click(findTestObject(""Object Repository/RotiMenuNavigation/Page_Rotimatic Fully Automatic Roti Maker  _722ede/span_Rotimatic NEXT""))",Chrome 134.0.6998.36,,,10-03-2025 12:55:00,10-03-2025 12:55:27,26.936s,PASSED
+"click(findTestObject(""Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/span_Rotimatic NEXT""))",Chrome 134.0.6998.36,,,10-03-2025 12:55:27,10-03-2025 12:55:29,2.370s,PASSED
+"scrollToElement(findTestObject(""RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Find the accessories youre looking for _6947bd""), 0)",Chrome 134.0.6998.36,,,10-03-2025 12:55:29,10-03-2025 12:55:30,0.321s,PASSED
+"click(findTestObject(""Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Find the accessories youre looking for _6947bd""))",Chrome 134.0.6998.36,,,10-03-2025 12:55:30,10-03-2025 12:55:52,22.654s,PASSED
+"click(findTestObject(""Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img""))",Chrome 134.0.6998.36,,,10-03-2025 12:55:52,10-03-2025 12:56:27,34.703s,PASSED
+closeBrowser(),Chrome 134.0.6998.36,,,10-03-2025 12:56:27,10-03-2025 12:56:28,0.563s,PASSED
+,,,,,,,
+Test Cases/ExploreRotimaticNEXT,Chrome 134.0.6998.36,,,10-03-2025 12:56:28,10-03-2025 12:57:31,1m - 3.419s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.36,,,10-03-2025 12:56:28,10-03-2025 12:56:29,1.293s,PASSED
+maximizeWindow(),Chrome 134.0.6998.36,,,10-03-2025 12:56:29,10-03-2025 12:56:29,0.052s,PASSED
+"navigateToUrl(""https://rotimatic.com/"")",Chrome 134.0.6998.36,,,10-03-2025 12:56:29,10-03-2025 12:56:58,28.393s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_Rotimatic Fully Automatic Roti Maker  _722ede/a_Explore Rotimatic NEXT""))",Chrome 134.0.6998.36,,,10-03-2025 12:56:58,10-03-2025 12:57:07,9.427s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Page_Rotimatic NEXT The Future of Roti-Maki_3d4686/span_NEXT level roti  technology""), 0)",Chrome 134.0.6998.36,,,10-03-2025 12:57:07,10-03-2025 12:57:31,23.511s,PASSED
+closeBrowser(),Chrome 134.0.6998.36,,,10-03-2025 12:57:31,10-03-2025 12:57:31,0.577s,PASSED

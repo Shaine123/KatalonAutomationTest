@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RotiHomePageTest/Page_Rotimatic NEXT The Future of Roti-Maki_3d4686/span_NEXT level roti  technology",
+      "brokenLocator": "//section[@id\u003d\u0027shopify-section-template--24155131380082__next_hero\u0027]/next-hero/div/div/div/div/div/div/h1/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027About us\u0027])[2]/following::span[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RotiHomePageTest/Page_Rotimatic NEXT The Future of Roti-Maki_3d4686/span_NEXT level roti  technology_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img",
+      "brokenLocator": "//acc-product[@id\u003d\u0027our-accessories\u0027]/div/div/div[2]/a/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Dough it right combo\u0027])[1]/preceding::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RotiMenuNavigation/Page_Rotimatic Accessories Next - Rotimatic/div_Featured_acc-product-item-img_neighbor.png"
+    }
+  ]
+}
