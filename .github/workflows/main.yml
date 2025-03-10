@@ -14,9 +14,10 @@ jobs:
 
       - name: Set up Katalon
         run: |
-          curl -L -o katalon.tar.gz $(curl -s https://api.github.com/repos/katalon-studio/katalon-studio/releases/latest | jq -r '.assets[] | select(.name | contains("Linux_64")).browser_download_url')
-          file katalon.tar.gz
-          tar -xzf katalon.tar.gz
+          API_KEY="${{ secrets.KATALON_API_KEY }}"
+          curl -L -H "Authorization: Bearer $API_KEY" -o Katalon_Studio_Linux_64.tar.gz "https://download.katalon.com/10.1.0/Katalon_Studio_Linux_64-10.1.0.tar.gz"
+          file Katalon_Studio_Linux_64.tar.gz  # Verify if it's a valid archive
+          tar -xzf Katalon_Studio_Linux_64.tar.gz
           sudo mv Katalon_Studio_Linux_64-* /opt/katalon
 
       - name: Run Katalon Tests
