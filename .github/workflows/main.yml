@@ -28,7 +28,7 @@ jobs:
           -runMode=console \
           -projectPath="$(pwd)/Katalon Test/Test Automation.prj" \
           -retry=0 \
-          -testSuitePath="Test Suites/HomePageTest.ts" \
+          -testSuitePath="Test Suites/HomePageTest" \
           -browserType="Chrome" \
           -apiKey="${{ secrets.KATALON_API_KEY  }}"
 
