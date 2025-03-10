@@ -23,7 +23,7 @@ jobs:
 
       - name: Run Katalon Tests
         run: |
-          /opt/katalon/katalon \
+          /opt/katalon/katalonc \
           -noSplash \
           -runMode=console \
           -projectPath="$(pwd)/Katalon Test/Test Automation.prj" \
