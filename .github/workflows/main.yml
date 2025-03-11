@@ -21,6 +21,18 @@ jobs:
       -  name: Verify Katalon Installation
          run: ls -lh /opt/katalon
 
+      - name: Install Chrome and ChromeDriver
+        run: |
+              sudo apt update
+              sudo apt install -y google-chrome-stable 
+              CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
+              CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+              wget -N https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
+              unzip chromedriver_linux64.zip
+              sudo mv chromedriver /usr/local/bin/
+              chromedriver --version
+
+
       - name: Run Katalon Tests
         run: |
           /opt/katalon/katalonc \
