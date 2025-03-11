@@ -6,4 +6,5 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>df169b2e-f449-444a-a346-c723b556d4e4</testCaseGuid>
+   <scriptPath>Scripts/AcessoriesTest/Script.groovy</scriptPath>
 </TestCaseEntity>
